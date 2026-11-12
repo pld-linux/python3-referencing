@@ -7,15 +7,15 @@
 Summary:	JSON Referencing + Python
 Summary(pl.UTF-8):	Odnośniki JSON + Pyton
 Name:		python3-%{module}
-Version:	0.36.2
+Version:	0.37.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/referencing/
 Source0:	https://files.pythonhosted.org/packages/source/r/referencing/%{module}-%{version}.tar.gz
-# Source0-md5:	9d116186b2c5225c4e55254b94b2cd8e
+# Source0-md5:	bc9d24d5aec035c707b107cc2d43196b
 URL:		https://pypi.org/project/referencing/
-BuildRequires:	python3-modules >= 1:3.9
+BuildRequires:	python3-modules >= 1:3.10
 BuildRequires:	python3-build
 BuildRequires:	python3-hatch-vcs
 BuildRequires:	python3-hatchling
@@ -37,7 +37,7 @@ BuildRequires:	python3-sphinx_json_schema_spec
 BuildRequires:	python3-url-py
 BuildRequires:	sphinx-pdg-3
 %endif
-Requires:	python3-modules >= 1:3.9
+Requires:	python3-modules >= 1:3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
